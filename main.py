@@ -95,15 +95,15 @@ url_data_fic = 'https://res.cloudinary.com/dnmx4vd6f/raw/upload/ficbook.txt'
 url_users = 'https://res.cloudinary.com/dnmx4vd6f/raw/upload/fic_users.txt'
 
 cloudinary.config(
-    cloud_name="dnmx4vd6f",
-    api_key="933285935676994",
-    api_secret="Ks0fcS48Rqp1gGXWRFQ9ICCOit4"
+    cloud_name=bot_token.cloud_name,
+    api_key=bot_token.api_key,
+    api_secret=bot_token.api_secret
 )
 file_users = 'users_data.txt'
 file_fanfictions = 'fanfiction_data.txt'
 
 parts = (' частей', ' части', ' часть')
-admin = '573958202'
+admin = bot_token.admin
 name_fic = 'moye'
 
 new_fanfiction_data = {}
